@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="imagens/favicon.png"/>
+
+
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <nav class="menu">
+        <div class="logo">
+            <a href="index.html"><img class="logo" src="imagens/logo.png "></a>
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="loja.html">Loja</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="adocao.html">Adoção</a></li>
+        </ul>
+    </nav>
+
+    <!-- Texto -->
+    <div class="containerForms">
+        <div class="esquerda">
+            <h2>Agendamento</h2>
+            <p>Nessa área você pode agendar alguns dos nossos serviços para o seu amigo peludo... e até mesmo os sem muito pelo. No formulário ao lado você pode escolher entre:</p>
+            <ul>
+                <li>Banho e tosa (para cães e gatos);</li>
+                <li>Consulta veterinária;</li>
+                <li>Vacinação.</li>
+            </ul>
+            <img src="imagens/cats.png" alt="Imagem">
+        </div>
+        <!-- Formulário -->
+        <div class="direita">
+            <div class="agendamento">           
+                <form id="formulario">
+                  <label for="nome">Nome:</label>
+                  <input type="text" id="nome" name="nome" required><br><br>
+                  
+                  <label for="email">E-mail:</label>
+                  <input type="email" id="email" name="email" required><br><br>
+                  
+                  <label for="data">Data:</label>
+                  <input type="date" id="data" name="data" required><br><br>
+                  
+                  <label for="hora">Hora:</label>
+                  <input type="time" id="hora" name="hora" required><br><br>
+                  
+                  <label for="servico" class="servico">Serviço:</label>
+                  <select id="servico" name="servico" required>
+                    <option value="">Selecione um serviço</option>
+                    <option value="Banho e tosa">Banho e tosa</option>
+                    <option value="Consulta veterinária">Consulta veterinária</option>
+                    <option value="Vacinação">Vacinação</option>
+                  </select><br><br>
+                 
+                  <button class="buttonForms" type="button">Agendar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>Criado com carinho por Bichano 2023 ❤</p>
+    </footer>
+
+</body>
+
+</html>

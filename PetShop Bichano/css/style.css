@@ -1,0 +1,628 @@
+
+/* Definir a fonte padrão */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+/* Nav Menu */
+
+nav {
+    background-color: #f6bd60;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.logo{  
+    height: auto;
+}  
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
+  
+nav li {
+    margin-right: 20px;
+}
+ 
+nav a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+  
+nav a:hover {
+    color: #F95D75;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* Rodapé */
+
+footer {
+    background-color: #ffc0cb;
+    color: #FF3567;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 120px;
+    margin-left: 10px;
+}
+
+/* Botão mais */
+
+.buttonMais {
+    background-color: #F95D75;
+    color: #fff;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;  
+    cursor: pointer;    
+    margin-top: 1%;
+}
+
+.buttonMais:hover{
+    background-color: #FF3567;
+    color: #ffffff;
+}
+
+/* Menu - Primeira Div */
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF4E8;
+    margin-bottom: 40px;
+}
+  
+.texto {
+    text-align: center;
+    flex: 1;
+    margin: 0px 0px 0px 50px;
+    color: #6d7988;
+}
+  
+.imagem {
+    text-align: center;
+    flex: 1;
+}
+
+.buttonMaisAni{
+    background-color: #F95D75;
+    color: #ffffff;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px; 
+    margin-top: 30px;
+    font-size: 14px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttonMaisAni:hover {
+    background-color: #FF3567;
+    color: #ffffff;
+    cursor: pointer;
+}
+  
+/* Alinhar texto ao centro */
+
+.CenterText {
+    text-align: center;
+}
+
+/* Menu - Conteiner de Imagens */
+
+.imagem-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+.imagem-container img {
+    float: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+
+/* Agende nossos serviços */
+
+.menuServico {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8594A6;
+    color: #fff;
+}
+  
+.textoServico {
+    text-align: left;
+    margin-left: 60px;
+    margin-right: 50px;
+    flex: 1;
+}
+  
+.imagemServico {
+    text-align: center;
+    flex: 1;
+}
+  
+.buttonServico {
+    background-color: #F6BD60;
+    color: #fff;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;  
+    cursor: pointer;    
+}
+
+.buttonServico:hover{
+    background-color: #ffffff;
+    color: #F6BD60;
+}
+
+
+/* Menu - Produtos */
+
+.Produto {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.Produto img{
+    float: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border:1px solid #cacaca
+}
+
+/* Menu - Review */
+
+.review {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8594A6;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px 0px 10px 0px;
+}
+  
+.textoReview {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 60px;
+    flex: 1;
+    color: #ffffff
+}
+  
+.imagemReview img {
+    text-align: center;
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 0px #525b66;
+}
+  
+.buttonReview {
+    background-color: #F6BD60;
+    color: #ffffff;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;   
+}
+
+.buttonReview:hover {
+    background-color: #ffffff;
+    color: #F6BD60;
+    cursor: pointer;
+
+}
+
+/* Menu - Nossa equipe */
+
+.containerEquipe {
+    text-align: center;
+}
+
+  .containerEquipeP {
+    text-align: center; 
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.membro {
+    width: 200px;
+    display: inline-block;
+    margin: 30px;
+}
+
+.membro img {
+    width: 100%;
+}
+
+/* Loja - Procurando */
+
+.procurando{
+    margin: 0px 90px 0px 90px;
+}
+
+/* Loja - Tabela categorias */
+
+.containerCateLoja{
+    background-color: #ffc0cb;
+    padding: 10px 00px 10px 00px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CateLoja h2
+{
+    margin: 0px 80px 0px 80px;
+}
+
+.lista-coluna {
+    /*     -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    list-style: none;
+    margin: 0px 80px 0px 80px;
+    padding: 0;
+     */
+     width: 100%;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: -10px; /* espaçamento entre as categorias */
+     list-style-type: none;
+    margin-left: 40px;
+     
+}
+  
+.lista-coluna li {
+    margin-bottom: 5px;
+}
+  
+.lista-coluna li:hover{
+    cursor: pointer;
+    color: #ff3567;
+}
+
+.imagemCateLoja {
+    text-align: center;
+    flex: 1;
+} 
+
+/* Loja - Conteiner de Imagens produtos */
+
+.containerProdutos {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+  
+.containerProdutos img {
+    float: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border:1px solid #cacaca
+}
+
+
+/* Agenda - Formulário */
+
+.containerForms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+  .esquerda {
+    width: 40%;
+    text-align: left;
+  }
+  
+  .esquerda img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .direita {
+    width: 60%;
+    text-align: right;
+}
+  
+
+/* Agenda - Estilo Forms */
+
+.agendamento {
+    text-align: left;
+} 
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #8594A6;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+  
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="time"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select {
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.buttonForms {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    background-color: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.buttonForms:hover{
+    background-color: #F28482;
+    border-color: #F28482;
+    color: #ffffff;
+    cursor: pointer;
+}
+  
+/* Contato */
+
+.containerContato {
+    align-items: center;
+    margin: 0 auto;
+    margin: 20px 200px 20px 200px;
+}
+
+.containerContato h2{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.containerContato p{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.containerContato img{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/* Adoção - 1º Div */
+
+.adocao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8594A6;
+    color: #fff;
+}
+  
+.textoAdocao {
+    text-align: left;
+    margin-left: 60px;
+    margin-right: 50px;
+    flex: 1;
+}
+  
+.imagemReview {
+    text-align: center;
+    flex: 1;
+}
+  
+.buttonAdocao {
+    background-color: #F6BD60;
+    color: #fff;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;  
+    cursor: pointer;    
+}
+
+.buttonAdocao:hover{
+    background-color: #ffffff;
+    color: #F6BD60;
+}
+
+/* Adoção - Passo a passo */
+
+.containerStep {
+    text-align: center;
+  }
+
+.Step {
+    width: 200px;
+    display: inline-block;
+    margin: 10px 30px 40px 30px;
+    text-align: center;
+}
+
+.Step img {
+    width: 100%;
+}
+
+/* AdoçãoA */
+
+.adocaoA {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F28482;
+    color: #ffffff;
+}
+  
+.textoAdocaoA {
+    text-align: left;
+    margin-left: 60px;
+    margin-right: 50px;
+    flex: 1;
+}
+
+.buttonAdocaoA {
+    background-color: #F6BD60;
+    color: #fff;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;  
+    cursor: pointer;    
+}
+
+.buttonAdocaoA:hover{
+    background-color: #ffffff;
+    color: #F6BD60;
+}
+
+
+/* AdoçãoB */
+
+.adocaoB {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8594A6;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+  
+.textoAdocaoB {
+    text-align: left;
+    margin-left: 60px;
+    margin-right: 50px;
+    flex: 1;
+}
+  
+.buttonAdocaoB {
+    background-color: #F6BD60;
+    color: #fff;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;  
+    cursor: pointer;    
+}
+
+.buttonAdocaoB:hover{
+    background-color: #ffffff;
+    color: #F6BD60;
+}
+
+/* Adoção - Final */
+
+span{
+    color: #F95D75
+}
+
+span{
+    cursor: pointer;
+}
+
+.buttonPerguntar {
+    background-color: #F95D75;
+    color: #fff;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    cursor: pointer;  
+    margin-bottom: 40px;
+}
+
+.buttonPerguntar:hover {
+    background-color: #FF3567;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="imagens/favicon.png"/>
+
+
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <nav class="menu">
+        <div class="logo">
+            <a href="index.html"><img class="logo" src="imagens/logo.png "></a>
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="loja.html">Loja</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="adocao.html">Adoção</a></li>
+        </ul>
+    </nav>
+
+    <div class="containerContato">
+        <h2 class="CenterText">Deseja falar conosco?</h2>
+        <p class="CenterText">Elogios, criticas ou sugestões? Você está no lugar certo. Responda o forumlário ao lado com suas informações e responderemos assim que possível.</p>
+        <div class="formsContato">
+            <form action="enviar-email.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+              
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+              
+                <button class="buttonForms" type="submit">Enviar</button>
+              </form>                  
+        </div>
+        <img src="imagens/dogdown.PNG" alt="Cachorro deitado">
+    </div>
+
+    <footer>
+        <p>Criado com carinho por Bichano 2023 ❤</p>
+    </footer>
+
+</body>
+
+</html>
