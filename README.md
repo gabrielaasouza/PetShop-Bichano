@@ -36,9 +36,9 @@ As imagens foram retiradas do site Unsplash e do Canva, onde foram feito os desi
 
 <br>
 <div style="display: flex; justify-content: center;">
-  <img src="https://github.com/gabriela4souza/PetShop-Bichano/blob/main/PetShop%20Bichano/imagens/banner.png" width="320" height="218">
-  <img src="https://github.com/gabriela4souza/PetShop-Bichano/blob/main/PetShop%20Bichano/imagens/bannerA.png" width="320" height="218">
-  <img src="https://github.com/gabriela4souza/PetShop-Bichano/blob/main/PetShop%20Bichano/imagens/bannerB.png" width="320" height="218">
+  <img src="https://github.com/gabriela4souza/PetShop-Bichano/blob/main/PetShop%20Bichano/imagens/banner.png" width="260" height="158">
+  <img src="https://github.com/gabriela4souza/PetShop-Bichano/blob/main/PetShop%20Bichano/imagens/bannerA.png" width="260" height="158">
+  <img src="https://github.com/gabriela4souza/PetShop-Bichano/blob/main/PetShop%20Bichano/imagens/bannerB.png" width="260" height="158">
 </div>
 <br>
 
