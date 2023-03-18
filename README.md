@@ -1,4 +1,4 @@
-# 🐾 PetShop-Bichano
+# 🐾 PetShop Bichano
 
 A Bichano é uma PetShop criada para a atividade AUmigos. Seu conteúdo é ficcional e foi desenvolvido com base em instruções:
 
@@ -55,8 +55,3 @@ A fonte utilizada foi a Poppins por ter uma forma mais arredondada, combinando c
 # 🔨 Ferramentas
 
 Foram utilizados Figma para a prototipagem, VS Code para o código, Canva para o desenvolvimento dos designs, Unsplash para imagens, Coolors para escolher as cores e Google Fonts para a fonte escolhida.
-
-<br>
-<div style="display: flex; justify-content: center;">
-  <img src="https://github.com/gabriela4souza/PetShop-Bichano/blob/main/View/ferramentas.png" alt="Ferramentas">
-</div>
