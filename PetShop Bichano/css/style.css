@@ -5,6 +5,7 @@ body {
     margin: 0px;
 }
 
+
 /* Nav Menu */
 
 nav {
@@ -34,7 +35,7 @@ nav li {
 nav a {
     display: block;
     padding: 10px;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
   
@@ -49,7 +50,6 @@ nav a:hover {
 }
 
 
-
 /* Rodapé */
 
 footer {
@@ -59,6 +59,7 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
 
 /* Logo */
 
@@ -70,11 +71,12 @@ footer {
     margin-left: 10px;
 }
 
+
 /* Botão mais */
 
 .buttonMais {
     background-color: #F95D75;
-    color: #fff;
+    color: #ffffff;
     border: none;
     height: 40px;
     width: 120px;
@@ -87,6 +89,7 @@ footer {
     background-color: #FF3567;
     color: #ffffff;
 }
+
 
 /* Menu - Primeira Div */
 
@@ -129,12 +132,14 @@ footer {
     color: #ffffff;
     cursor: pointer;
 }
-  
+
+
 /* Alinhar texto ao centro */
 
 .CenterText {
     text-align: center;
 }
+
 
 /* Menu - Conteiner de Imagens */
 
@@ -152,6 +157,7 @@ footer {
     cursor: pointer;
 } 
 
+
 /* Agende nossos serviços */
 
 .menuServico {
@@ -159,7 +165,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: #8594A6;
-    color: #fff;
+    color: #ffffff;
 }
   
 .textoServico {
@@ -176,7 +182,7 @@ footer {
   
 .buttonServico {
     background-color: #F6BD60;
-    color: #fff;
+    color: #ffffff;
     border: none;
     height: 40px;
     width: 120px;
@@ -250,13 +256,14 @@ footer {
 
 }
 
+
 /* Menu - Nossa equipe */
 
 .containerEquipe {
     text-align: center;
 }
 
-  .containerEquipeP {
+.containerEquipeP {
     text-align: center; 
     margin-left: 120px;
     margin-right: 120px;
@@ -272,11 +279,13 @@ footer {
     width: 100%;
 }
 
+
 /* Loja - Procurando */
 
 .procurando{
     margin: 0px 90px 0px 90px;
 }
+
 
 /* Loja - Tabela categorias */
 
@@ -294,17 +303,10 @@ footer {
 }
 
 .lista-coluna {
-    /*     -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    list-style: none;
-    margin: 0px 80px 0px 80px;
-    padding: 0;
-     */
      width: 100%;
      display: grid;
      grid-template-columns: repeat(3, 1fr);
-     grid-gap: -10px; /* espaçamento entre as categorias */
+     grid-gap: -10px;
      list-style-type: none;
     margin-left: 40px;
      
@@ -324,13 +326,13 @@ footer {
     flex: 1;
 } 
 
+
 /* Loja - Conteiner de Imagens produtos */
 
 .containerProdutos {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 40px;
-    
+    margin-bottom: 40px;   
 }
   
 .containerProdutos img {
@@ -355,18 +357,18 @@ footer {
     margin-bottom: 20px;
 }
   
-  .esquerda {
+.esquerda {
     width: 40%;
     text-align: left;
-  }
+}
   
-  .esquerda img {
+.esquerda img {
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
-  }
+}
   
-  .direita {
+.direita {
     width: 60%;
     text-align: right;
 }
@@ -451,6 +453,7 @@ select {
     cursor: pointer;
 }
   
+
 /* Contato */
 
 .containerContato {
@@ -477,6 +480,7 @@ select {
     margin-right: 30%;
 }
 
+
 /* Adoção - 1º Div */
 
 .adocao {
@@ -484,7 +488,7 @@ select {
     justify-content: space-between;
     align-items: center;
     background-color: #8594A6;
-    color: #fff;
+    color: #ffffff;
 }
   
 .textoAdocao {
@@ -501,7 +505,7 @@ select {
   
 .buttonAdocao {
     background-color: #F6BD60;
-    color: #fff;
+    color: #ffffff;
     border: none;
     height: 40px;
     width: 120px;
@@ -513,6 +517,7 @@ select {
     background-color: #ffffff;
     color: #F6BD60;
 }
+
 
 /* Adoção - Passo a passo */
 
@@ -530,6 +535,7 @@ select {
 .Step img {
     width: 100%;
 }
+
 
 /* AdoçãoA */
 
@@ -550,7 +556,7 @@ select {
 
 .buttonAdocaoA {
     background-color: #F6BD60;
-    color: #fff;
+    color: #ffffff;
     border: none;
     height: 40px;
     width: 120px;
@@ -597,19 +603,20 @@ select {
     color: #F6BD60;
 }
 
+
 /* Adoção - Final */
 
-span{
+span {
     color: #F95D75
 }
 
-span{
+span {
     cursor: pointer;
 }
 
 .buttonPerguntar {
     background-color: #F95D75;
-    color: #fff;
+    color: #ffffff;
     border: none;
     height: 40px;
     width: 120px;
@@ -620,7 +627,7 @@ span{
 
 .buttonPerguntar:hover {
     background-color: #FF3567;
-    color: #fff;
+    color: #ffffff;
 }
 
 a {
