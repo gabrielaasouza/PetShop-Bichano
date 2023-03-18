@@ -42,13 +42,13 @@ As imagens foram retiradas do site Unsplash e do Canva, onde foram feito os desi
 </div>
 <br>
 
-Foi utilizado formas orgâncias para passar uma imagem de adaptação e liberdade. Sobre as cores, os tons de amarelo claro foram escolhidos para transmitir a sensação de alegria e energia, que são características comuns dos animais de estimação, enquanto o tom roxo azulado é associado a serenidade, confiança e elegância, características que podem ser associadas a um serviço de qualidade, e os tons de rosa trazem uma sensação de calor, amor e aconchego, o que pode reforçar a ideia de que a petshop é um lugar acolhedor para os animais e seus donos.
+Foi utilizado formas orgâncias para passar uma imagem de adaptação e liberdade. A fonte utilizada foi a Poppins por ter uma forma mais arredondada, combinando com a proposta do site. 
+
+Sobre as cores, os tons de amarelo claro foram escolhidos para transmitir a sensação de alegria e energia, que são características comuns dos animais de estimação, enquanto o tom roxo azulado é associado a serenidade, confiança e elegância, características que podem ser associadas a um serviço de qualidade, e os tons de rosa trazem uma sensação de calor, amor e aconchego, o que pode reforçar a ideia de que a petshop é um lugar acolhedor para os animais e seus donos.
 
 <p align="center">
-<img src="https://github.com/gabriela4souza/PetShop-Bichano/blob/main/View/color%20pallete.svg" alt="Paleta de cores utilizada">
+<img src="https://github.com/gabriela4souza/PetShop-Bichano/blob/main/View/color%20pallete.svg" alt="Paleta de cores utilizada" width="750" height="250">
 </p>
-
-A fonte utilizada foi a Poppins por ter uma forma mais arredondada, combinando com a proposta do site.
 
 ###
 
