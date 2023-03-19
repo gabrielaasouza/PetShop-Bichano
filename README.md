@@ -19,7 +19,7 @@ LOJA, AGENDA, CONTATO e ADOÇÃO e faça-os navegáveis.
 
 7. Conteúdo para o rodapé.
 
-Abaixo você pode conferir as ideias para a criação.
+Abaixo você pode conferir as ideias para a criação. Bem-vindo à PetShop Bichano!
 
 <p align="center">
 <img src="https://github.com/gabriela4souza/PetShop-Bichano/blob/main/View/PetShop_Bichano_View.gif" alt="Visualização da página">
