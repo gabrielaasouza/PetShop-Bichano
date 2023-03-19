@@ -28,7 +28,7 @@ Abaixo você pode conferir as ideias para a criação. Bem-vindo à PetShop Bich
 
 A prototipagem do site foi feita no Figma, em seguida o código foi escrito no VS Code. A montagem dele foi pensada seguindo as instruções dadas, além da liberdade para escolher o conteúdo dele.
 
-As imagens foram retiradas do site Unsplash e do Canva, onde foram feito os designs das páginas, como os exemplos abaixo:
+As fotos foram retiradas do site Unsplash e do Canva, onde também foram feito os designs das páginas, como os exemplos abaixo:
 
 
 <br>
