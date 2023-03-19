@@ -20,12 +20,9 @@ LOJA, AGENDA, CONTATO e ADOÇÃO e faça-os navegáveis.
 7. Conteúdo para o rodapé.
 
 Abaixo você pode conferir as ideias para a criação. Bem-vindo à PetShop Bichano!
-
 <p align="center">
 <img src="https://github.com/gabriela4souza/PetShop-Bichano/blob/main/View/PetShop_Bichano_View.gif" alt="Visualização da página">
 </p>
-
-###
 
 # 🎨 Desenvolvendo
 
@@ -47,7 +44,7 @@ Foi utilizado formas orgâncias para passar uma imagem de adaptação e liberdad
 Sobre as cores, os tons de amarelo claro foram escolhidos para transmitir a sensação de alegria e energia, que são características comuns dos animais de estimação, enquanto o tom roxo azulado é associado a serenidade, confiança e elegância, características que podem ser associadas a um serviço de qualidade, e os tons de rosa trazem uma sensação de calor, amor e aconchego, o que pode reforçar a ideia de que a petshop é um lugar acolhedor para os animais e seus donos.
 
 <p align="center">
-<img src="https://github.com/gabriela4souza/PetShop-Bichano/blob/main/View/color%20pallete.svg" alt="Paleta de cores utilizada" width="750" height="250">
+<img src="https://github.com/gabriela4souza/PetShop-Bichano/blob/main/View/color%20pallete.svg" alt="Paleta de cores utilizada" width="750" height="125">
 </p>
 
 ###
